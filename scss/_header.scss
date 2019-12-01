@@ -1,0 +1,45 @@
+ // HEADER
+
+ .header {
+   height: 40vh;
+   background-image: url(../graphic/Background.png);
+   background-position: center;
+   background-size: cover;
+   color: white;
+   font-family: $special-font;
+
+   &__background {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     height: 100%;
+     background-color: rgba(0, 0, 0, 0.8);
+   }
+
+   &__title {
+     font-size: 3rem;
+     font-weight: bold;
+     color: white;
+     text-align: center;
+     padding-top: 50px;
+   }
+
+   &__text {
+     margin-top: 10px;
+     font-size: 1.3rem;
+     font-weight: 400;
+     color: rgba(204, 204, 204, 255);
+   }
+
+   &__btn {
+     margin-bottom: 50px;
+     transition: .5s;
+
+
+     &:hover {
+       transform: scale(1.1);
+     }
+   }
+
+ }

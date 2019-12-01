@@ -1,0 +1,69 @@
+// relax
+
+.relax {
+  color: white;
+
+  &__left {
+    display: none;
+  }
+
+  &__right {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    // height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 50px;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      // bottom: 0;
+      // right: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: url(../graphic/Background-2.png);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      z-index: -1;
+    }
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+  }
+
+  &__text {
+    // line-height: 10vw;
+    font-size: 1.3rem;
+    // padding-left: 10px;
+  }
+
+  &__we-do-it {
+    padding: 10px 0;
+    display: flex;
+    // justify-content: center;
+    // align-content: center;
+    line-height: 5vw;
+    height: 10vw;
+
+    // &::before {
+    //     content: "";
+    //     border: 1px solid white;
+    //     border-radius: 50%;
+    //     margin-right: 10px;
+    // }
+  }
+
+  &__check {
+    height: 5vw;
+    width: 5vw;
+    margin-right: 10px;
+  }
+}

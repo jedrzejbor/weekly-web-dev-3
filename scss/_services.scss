@@ -1,0 +1,47 @@
+// services
+.services {
+  // background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+
+  &__title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    padding: 10px;
+    color: rgb(119, 119, 119);
+  }
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+
+  &__img {
+    padding: 10px;
+    // font-size: 4rem;
+    height: 16vw;
+    width: 16vw;
+  }
+
+  &__title {
+    padding: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin: 10px 20px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #8D8D8D;
+    box-shadow: 0 6px 6px -6px #666;
+  }
+}

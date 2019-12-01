@@ -1,0 +1,8 @@
+@mixin bar {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 30px;
+  border-radius: 50px;
+  background-color: black;
+}

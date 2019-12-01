@@ -1,0 +1,32 @@
+// project
+
+.project {
+  height: 100vh;
+  overflow-x: hidden;
+
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+  &__text {
+    text-align: center;
+  }
+}
+
+.content-project {
+  display: flex;
+}
+
+.content-project-left {
+  width: 100vw;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.content-project-right {
+  &__img {
+    display: none;
+  }
+}
