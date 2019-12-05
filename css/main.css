@@ -317,6 +317,15 @@ html {
   margin: 0 20px;
 }
 
+.content-project-left__component {
+  margin: 20px auto;
+  background-color: red;
+}
+
+.content-project-left__icon {
+  height: 20px;
+}
+
 .content-project-right__img {
   display: none;
 }
