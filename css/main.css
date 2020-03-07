@@ -291,7 +291,6 @@ html {
 }
 
 .project {
-  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -299,10 +298,12 @@ html {
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem;
+  margin-top: 20px;
 }
 
 .project__text {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .content-project {
@@ -311,23 +312,42 @@ html {
   display: flex;
 }
 
+.content-project__icon {
+  height: 35px;
+}
+
 .content-project-left {
-  width: 100vw;
+  width: 80vw;
   text-align: center;
-  margin: 0 20px;
+  margin: 0 auto;
 }
 
-.content-project-left__component {
+.content-project__component {
   margin: 20px auto;
-  background-color: red;
 }
 
-.content-project-left__icon {
-  height: 20px;
+.content-project__component-title {
+  margin: 10px 0px 5px 0px;
 }
 
 .content-project-right__img {
   display: none;
+}
+
+.values {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 55vh;
+  width: 100vw;
+  background-color: rgba(207, 207, 207, 0.5);
 }
 
 .button {
