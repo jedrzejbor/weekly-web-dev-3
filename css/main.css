@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700|\aRoboto:400, 700&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,700&display=swap&subset=latin-ext");
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab:400,700&display=swap&subset=latin-ext" rel="stylesheet"');
 * {
   margin: 0;
@@ -345,9 +345,35 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 55vh;
   width: 100vw;
   background-color: rgba(207, 207, 207, 0.5);
+}
+
+.values-head {
+  margin-top: 20px;
+}
+
+.values__element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+.values__element-img {
+  height: 50px;
+  width: 50px;
+}
+
+.values__element-head {
+  margin: 5px 0;
 }
 
 .button {
