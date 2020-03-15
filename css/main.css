@@ -208,8 +208,8 @@ html {
 
 .info-block__img {
   padding: 10px;
-  height: 40px;
-  width: 40vw;
+  height: 16vw;
+  width: 16vw;
 }
 
 .info-block__title {
@@ -313,7 +313,7 @@ html {
 }
 
 .content-project__icon {
-  height: 35px;
+  height: 40px;
 }
 
 .content-project-left {
