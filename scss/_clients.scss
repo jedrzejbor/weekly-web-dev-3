@@ -1,0 +1,20 @@
+.clients-comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .clients-comments__circle {
+    height: 20vh;
+    width: 20vh;
+    background-color: rgb(249, 249, 249);
+    border-radius: 50%;
+  }
+
+  .clients-comments__comment {
+    height: 10vh;
+    width: 80vw;
+    background-color: rgb(249, 249, 249);
+    margin: 20px;
+  }
+}

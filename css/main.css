@@ -346,7 +346,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   width: 100vw;
-  background-color: rgba(207, 207, 207, 0.5);
+  background-color: #f9f9f9;
 }
 
 .values-head {
@@ -376,10 +376,40 @@ html {
   margin: 5px 0;
 }
 
+.clients-comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients-comments .clients-comments__circle {
+  height: 20vh;
+  width: 20vh;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+}
+
+.clients-comments .clients-comments__comment {
+  height: 10vh;
+  width: 80vw;
+  background-color: #f9f9f9;
+  margin: 20px;
+}
+
 .button {
   color: white;
-  background-color: #88ba74;
-  border: 1px solid #88ba74;
+  background-color: #7cc575;
+  border: 1px solid #7cc575;
   border-radius: 50px;
   padding: 10px 20px;
   margin-top: 20px;
