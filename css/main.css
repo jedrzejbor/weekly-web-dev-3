@@ -182,7 +182,7 @@ html {
 }
 
 .services__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -214,7 +214,7 @@ html {
 
 .info-block__title {
   padding: 10px;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
 }
 
@@ -297,7 +297,7 @@ html {
 .project__title {
   text-align: center;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 20px;
 }
 
@@ -351,7 +351,7 @@ html {
 
 .values-head {
   margin-top: 20px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .values__element {
@@ -392,7 +392,7 @@ html {
 
 .clients__head {
   margin: 20px 0 5px 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .clients__comments {
@@ -424,6 +424,16 @@ html {
   width: 80vw;
   background-color: #f9f9f9;
   margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .clients__comments-comment::before {
@@ -441,6 +451,10 @@ html {
 
 .clients__comments-text {
   margin: 0 5px 2px;
+}
+
+.clients__comments-name {
+  color: #7cc575;
 }
 
 .button {
