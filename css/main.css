@@ -214,7 +214,7 @@ html {
 
 .info-block__title {
   padding: 10px;
-  font-size: 1.7rem;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
 
@@ -328,6 +328,7 @@ html {
 
 .content-project__component-title {
   margin: 10px 0px 5px 0px;
+  font-size: 1.5em;
 }
 
 .content-project-right__img {
@@ -375,6 +376,7 @@ html {
 
 .values__element-head {
   margin: 5px 0;
+  font-size: 1.5em;
 }
 
 .clients {
