@@ -1,0 +1,11 @@
+.banner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  &__logo {
+    // height: 25px;
+    width: 34vw;
+    margin: 10px 0;
+  }
+}
