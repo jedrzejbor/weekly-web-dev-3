@@ -498,8 +498,48 @@ html {
 }
 
 .banner__logo {
-  width: 34vw;
+  width: 60vw;
+  margin: 20px 0;
+}
+
+.date {
+  background-color: #212121;
+  padding-top: 10px;
+}
+
+.date__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.date__content-header {
+  color: white;
+}
+
+.date__content-lists {
+  width: 50vw;
   margin: 10px 0;
+}
+
+.date__content-item {
+  list-style: none;
+}
+
+.date__content-link {
+  color: white;
+  text-decoration: none;
+}
+
+.date__content-link:hover {
+  color: #7cc575;
 }
 
 .button {
