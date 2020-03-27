@@ -542,6 +542,62 @@ html {
   color: #7cc575;
 }
 
+.footer__media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+}
+
+.footer__link {
+  display: block;
+  height: 15vw;
+  width: 15vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 10px;
+}
+
+.footer__link-twitter {
+  background-image: url(/challange-3-master/img/twitter-footer.png);
+}
+
+.footer__link-twitter:hover {
+  background-image: url(/challange-3-master/img/twitter.png);
+}
+
+.footer__link-facebook {
+  background-image: url(/challange-3-master/img/facebook-footer.png);
+}
+
+.footer__link-facebook:hover {
+  background-image: url(/challange-3-master/img/fb.png);
+}
+
+.footer__link-pinterest {
+  background-image: url(/challange-3-master/img/pinterest-footer.png);
+}
+
+.footer__link-pinterest:hover {
+  background-image: url(/challange-3-master/img/p.png);
+}
+
+.footer__link-google {
+  background-image: url(/challange-3-master/img/google-footer.png);
+}
+
+.footer__link-google:hover {
+  background-image: url(/challange-3-master/img/gplus.png);
+}
+
+.footer__creator {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .button {
   color: white;
   background-color: #7cc575;

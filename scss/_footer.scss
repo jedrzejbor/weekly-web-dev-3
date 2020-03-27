@@ -1,0 +1,56 @@
+.footer {
+
+  // height: 40vh;
+  &__media {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  &__link {
+    display: block;
+    height: 15vw;
+    width: 15vw;
+    // background-color: #111;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+
+    &-twitter {
+      background-image: url(/challange-3-master/img/twitter-footer.png);
+    }
+
+    &-twitter:hover {
+      background-image: url(/challange-3-master/img/twitter.png);
+    }
+
+    &-facebook {
+      background-image: url(/challange-3-master/img/facebook-footer.png);
+    }
+
+    &-facebook:hover {
+      background-image: url(/challange-3-master/img/fb.png);
+    }
+
+    &-pinterest {
+      background-image: url(/challange-3-master/img/pinterest-footer.png);
+    }
+
+    &-pinterest:hover {
+      background-image: url(/challange-3-master/img/p.png);
+    }
+
+    &-google {
+      background-image: url(/challange-3-master/img/google-footer.png);
+    }
+
+    &-google:hover {
+      background-image: url(/challange-3-master/img/gplus.png);
+    }
+  }
+
+  &__creator {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
