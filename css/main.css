@@ -182,7 +182,7 @@ html {
   }
 }
 
-@media (orientation: portrait) and (min-width: 400px) {
+@media (orientation: portrait) and (min-width: 600px) {
   .header__title {
     font-size: 5rem;
   }
