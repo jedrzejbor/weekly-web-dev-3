@@ -194,6 +194,18 @@ html {
   }
 }
 
+@media (orientation: portrait) and (min-width: 1000px) {
+  .header__title {
+    font-size: 7em;
+  }
+  .header__text {
+    font-size: 4em;
+  }
+  .header__btn.button {
+    font-size: 3rem;
+  }
+}
+
 .services {
   display: -webkit-box;
   display: -ms-flexbox;

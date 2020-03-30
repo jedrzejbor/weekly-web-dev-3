@@ -78,3 +78,19 @@
     }
   }
 }
+
+@media (orientation: portrait) and (min-width: 1000px) {
+  .header {
+    &__title {
+      font-size: 7em;
+    }
+
+    &__text {
+      font-size: 4em;
+    }
+
+    &__btn.button {
+      font-size: 3rem;
+    }
+  }
+}
