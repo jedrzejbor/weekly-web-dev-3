@@ -1,82 +1,80 @@
- // HEADER
+// HEADER
 
- .header {
-   height: 40vh;
-   background-image: url(../graphic/Background.png);
-   background-position: center;
-   background-size: cover;
-   color: white;
-   font-family: $special-font;
+.header {
+  height: 40vh;
+  background-image: url(../graphic/Background.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: $special-font;
 
-   &__background {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-     align-items: center;
-     height: 100%;
-     background-color: rgba(0, 0, 0, 0.8);
-     padding-bottom: 50px;
-   }
+  &__background {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 50px;
+  }
 
-   &__title {
-     font-size: 3rem;
-     font-weight: bold;
-     color: white;
-     text-align: center;
-     padding-top: 50px;
-   }
+  &__title {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+  }
 
-   &__text {
-     margin-top: 10px;
-     font-size: 1.3rem;
-     font-weight: 400;
-     color: rgba(204, 204, 204, 255);
-   }
+  &__text {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgba(204, 204, 204, 255);
+  }
 
-   &__btn {
-     //  margin-bottom: 50px;
-     transition: .5s;
+  &__btn {
+    //  margin-bottom: 50px;
+    transition: 0.5s;
 
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
 
-     &:hover {
-       transform: scale(1.1);
-     }
-   }
+@media (orientation: portrait) and (min-width: 370px) and (min-height: 800px) {
+  .header {
+    &__title {
+      font-size: 3.9rem;
+    }
 
- }
+    &__text {
+      font-size: 1.8rem;
+    }
+  }
+}
 
- @media (orientation:portrait) and (min-width:370px) and (min-height:800px) {
-   .header {
-     &__title {
-       font-size: 3.9rem;
-     }
+@media (orientation: portrait) and (min-width: 400px) {
+  .header {
+    &__text {
+      font-size: 1.7rem;
+    }
+  }
+}
 
-     &__text {
-       font-size: 1.8rem;
-     }
-   }
- }
+@media (orientation: portrait) and (min-width: 600px) {
+  .header {
+    &__title {
+      font-size: 5rem;
+    }
 
- @media (orientation:portrait) and (min-width:400px) {
-   .header {
-     &__text {
-       font-size: 1.7rem;
-     }
-   }
- }
+    &__text {
+      font-size: 3rem;
+    }
 
- @media (orientation:portrait) and (min-width:600px) {
-   .header {
-     &__title {
-       font-size: 5rem;
-     }
-
-     &__text {
-       font-size: 3rem;
-     }
-
-     &__btn.button {
-       font-size: 2rem;
-     }
-   }
- }
+    &__btn.button {
+      font-size: 2rem;
+    }
+  }
+}

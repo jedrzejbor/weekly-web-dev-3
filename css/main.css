@@ -143,7 +143,7 @@ html {
 }
 
 .header__title {
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: bold;
   color: white;
   text-align: center;
@@ -158,8 +158,8 @@ html {
 }
 
 .header__btn {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header__btn:hover {
